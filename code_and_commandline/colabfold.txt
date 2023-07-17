@@ -1,0 +1,8 @@
+Monomer:
+
+colabfold_monomer.sh [filename (without .pdb at the end)]
+
+Multimer:
+
+colabfold_multimer.sh [filename (without .pdb at the end)]
+

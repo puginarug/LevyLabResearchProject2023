@@ -1,0 +1,17 @@
+# to create a local database:
+
+foldseek createdb pts_and_pims_pdb pts_and_pims_db
+
+# where:
+# pts_and_pims_pdb = a folder with pdb files
+# pts_and_pims_db = the name of the database to be created
+
+# to search against a database:
+
+foldseek easy-search pot_new_pims_pred_pdb_foldseek_010623/ pts_and_pims_database/pts_and_pims_db easysearch_allinfo010623 tmp2 --format-output query,target,fident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,prob,lddt,alntmscore
+
+# where:
+# pot_new_pims_pred_pdb_foldseek_010623/ = a file with queries (pdb files)
+# pts_and_pims_database/pts_and_pims_db = the db to search against
+# tmp2 = a folder to store files that are made during the search (not the final results file)
+# --format-output = which columns to put into the results file
