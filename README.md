@@ -1,4 +1,4 @@
-# LevyLabResearchProject2023
+# Research Project - David Zingerman - 2023
 Systematic Discovery of Polymorphic Toxin-Immunity Systems Based On One-to-Many Model of Immunity
 
 Absract:
